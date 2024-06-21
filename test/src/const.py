@@ -5,4 +5,4 @@ LEFT_TOP = (200, 65)
 GRIDE_COUNT = (9, 5)
 GRIDE_SIZE = (76, 96)
 
-PATH_BACK = 'pz/pic/other/back.png'
+PATH_BACK = 'Plants-vs-Zombies/pz/pic/other/back.png'
