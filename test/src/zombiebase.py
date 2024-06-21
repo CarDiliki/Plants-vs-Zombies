@@ -1,12 +1,6 @@
 import objectbase
 
-class ZombieBase(objectbase.objectBase):
-    def __init__(self, pathFmt, pathIndex, pos, size=None, pathIndexCount=0):
-        super(ZombieBase, self).__init__(pathFmt, pathIndex, pos, size, pathIndexCount)
-        
-    def getPositioCD(self):
-        return 0.2    
-    
+class ZombieBase(objectbase.ObjectBase):
     def checkPosition(self):
         result =  super(ZombieBase, self).checkPosition()
         if result:
